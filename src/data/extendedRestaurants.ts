@@ -1,0 +1,7 @@
+import { Restaurant } from './restaurantData';
+
+export const moreRestaurants: Restaurant[] = [
+  { id: 7, name: "Mediterranean Breeze", cuisine: "Mediterranean", rating: 4.7, reviewCount: 345, priceRange: "$$$", distance: "0.9 mi", address: "234 Willow Way", phone: "(555) 789-0123", hours: "12PM - 10PM", image: "https://d64gsuwffb70l.cloudfront.net/690215c69ba901ad836d5fd0_1761744392576_db0d33ad.webp", interiorImage: "https://d64gsuwffb70l.cloudfront.net/690215c69ba901ad836d5fd0_1761744412273_66e2a42b.webp", description: "Fresh Mediterranean cuisine", featured: false },
+  { id: 8, name: "Dragon Palace", cuisine: "Chinese", rating: 4.6, reviewCount: 456, priceRange: "$$", distance: "1.3 mi", address: "567 Spruce Ave", phone: "(555) 890-1234", hours: "11AM - 11PM", image: "https://d64gsuwffb70l.cloudfront.net/690215c69ba901ad836d5fd0_1761744394823_8779cb39.webp", interiorImage: "https://d64gsuwffb70l.cloudfront.net/690215c69ba901ad836d5fd0_1761744414506_22428a38.webp", description: "Traditional Chinese dishes", featured: false },
+  { id: 9, name: "Taco Fiesta", cuisine: "Mexican", rating: 4.8, reviewCount: 589, priceRange: "$", distance: "0.7 mi", address: "890 Ash Blvd", phone: "(555) 901-2345", hours: "10AM - 10PM", image: "https://d64gsuwffb70l.cloudfront.net/690215c69ba901ad836d5fd0_1761744398331_6221bbea.webp", interiorImage: "https://d64gsuwffb70l.cloudfront.net/690215c69ba901ad836d5fd0_1761744416435_a80c824c.webp", description: "Authentic Mexican street food", featured: true },
+];
